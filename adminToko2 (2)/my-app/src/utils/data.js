@@ -1,0 +1,35 @@
+export const products = [
+  { 
+    id: 1, 
+    name: "Wireless Headphones", 
+    slug: "wireless-headphones", 
+    price: 450000, 
+    stock: 99, 
+    category: 1, 
+    category_name: "Electronics", 
+    rating: 4, 
+    img: "/images/Soundcore Q20i.jpg", 
+  }, 
+  { 
+    id: 2, 
+    name: "Smart Watch", 
+    slug: "smart-watch", 
+    price: 650000, 
+    stock: 99, 
+    category: 1, 
+    category_name: "Electronics", 
+    rating: 5, 
+    img: "/images/apple_watch.jpeg", 
+  },
+  {
+    id: 3,
+    name: "Baju Tidur",
+    slug: "baju-tidur",
+    price: 150000,
+    stock: 12,
+    category: 2,
+    category_name: "Fashion",
+    rating: 4,
+    img: "/images/Baju tidur.jpg",
+  }
+]; 
